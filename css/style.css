@@ -4,7 +4,7 @@ body {
 
 img {
     transition: all 0.5s;
-    transform-origin: 30% 50%;
+    transform-origin: 40% 0%;
 }
 
 
@@ -25,5 +25,21 @@ img {
 /*Skalowanie*/
 
 .scale img:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
+}
+
+/*animacja*/
+.animation img{
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize{
+    0%, 100% {
+        height: 300px;
+    }
+    50%{
+        height: 50px;
+    }
 }
