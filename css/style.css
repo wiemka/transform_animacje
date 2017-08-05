@@ -1,0 +1,10 @@
+img {
+    transition: all 0.5s;
+    transform-origin: 100% 40%;
+}
+
+/*Obrót*/
+
+.rotate img{
+    transform: rotate(60deg);
+}
