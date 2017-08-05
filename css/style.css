@@ -1,10 +1,17 @@
+body{
+    background-color: lightgreen
+}
 img {
     transition: all 0.5s;
-    transform-origin: 100% 40%;
+    transform-origin: 30% 50%;
 }
 
 /*Obrót*/
 
 .rotate img{
-    transform: rotate(60deg);
+    transform: rotate(-37deg);
+}
+
+.translate img{
+    transform: translate(200px, 100px);
 }
