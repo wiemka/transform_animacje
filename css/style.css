@@ -1,17 +1,29 @@
-body{
+body {
     background-color: lightgreen
 }
+
 img {
     transition: all 0.5s;
     transform-origin: 30% 50%;
 }
 
+
 /*Obrót*/
 
-.rotate img{
+.rotate img {
     transform: rotate(-37deg);
 }
 
-.translate img{
+
+/*Przesunięcie*/
+
+.translate img {
     transform: translate(200px, 100px);
+}
+
+
+/*Skalowanie*/
+
+.scale img:hover {
+    transform: scale(1.2)
 }
